@@ -199,6 +199,6 @@ int main(int argc, char **argv) {
 	}
 
 	msDecryptStringWithKey(encryption_key, argv[2], string_buf2);
-	printf("INPUT '%s' DECRYPTED AS '%s'\n", string_buf, string_buf2);
+	printf("INPUT '%s' DECRYPTED AS '%s'\n", argv[2], string_buf2);
 }
 
